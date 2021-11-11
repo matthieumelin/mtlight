@@ -177,9 +177,13 @@ html {
 }
 
 .about_content_description {
-    text-align: center;
     font-family: 'Futura', sans-serif;
     font-weight: 500;
+}
+
+.about_content_section {
+    width: 90%;
+    margin: 0 auto;
 }
 
 .about_content_divide {
@@ -267,8 +271,71 @@ html {
 }
 
 .formations_content {
-    width: 90%;
-    margin: 10px auto;
+    width: 80%;
+    margin: 20px auto 30px auto;
+}
+
+.formations_content_divide {
+    height: 1px;
+    background: #000;
+    margin: 20px 0;
+}
+
+.formations_content_header_image {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.formations_content_header_title {
+    font-family: 'Futura', sans-serif;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+
+.formations_content_section {
+    margin: 20px 0 0 0;
+}
+
+.formations_content_section_title {
+    color: #FF0000;
+    font-family: 'Futura', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.formations_content_section_more {
+    color: #FF0000;
+    font-family: 'Futura', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.formations_content_section_description {
+    font-family: 'Futura', sans-serif;
+}
+
+.formations_content_section_menu {
+    font-family: 'Futura', sans-serif;
+    list-style-type: none;
+    padding: 0;
+}
+
+.formations_content_section_menu_item {
+    margin: 20px 0 0 0;
+}
+
+.formations_content_section_button {
+    background: #FF0000;
+    border: none;
+    border-radius: 20px;
+    color: #000;
+    font-family: 'Futura', sans-serif;
+    font-weight: bold;
+    padding: 5px 20px;
+    margin: 0 auto;
+    display: block;
 }
 
 
